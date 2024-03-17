@@ -8,7 +8,7 @@ import javax.sql.DataSource;
 
 @Configuration
 public class PersistanceConfiguration {
-    @Bean
+    /*@Bean
     public DataSource dataSource() {
         DataSourceBuilder builder = DataSourceBuilder.create();
         builder.url("jdbc:postgresql://localhost:5432/conference_app");
@@ -16,5 +16,5 @@ public class PersistanceConfiguration {
         builder.password("trogir");
         System.out.println("My custom datasource bean has been initialized and set");
         return builder.build();
-    }
+    }*/
 }
